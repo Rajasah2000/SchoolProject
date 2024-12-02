@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.sai-logo {
+  background-color: #ffd700;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sai-logo-text {
+  font-family: 'Bangers', cursive;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4b0082;
+  text-shadow: 
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff,
+    4px 4px 0 #4b0082;
+  letter-spacing: 2px;
+  transform: skew(-5deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sai-letter {
+  display: inline-block;
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
+}
+
+.sai-letter:hover {
+  transform: rotate(5deg) scale(1.1);
+}
